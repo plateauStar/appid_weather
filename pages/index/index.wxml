@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<view class='singlerow'>
+  <view>
+    <!-- <image class='locationimg' style="flex-item" src="../../images/curcity.png"> </image> -->
+  </view>
+  <view>
+    <input placeholder='城市名称' type='text' style="margin:20px" confirm-type='search' class='searchbar'>
+    </input>
+  </view>
+</view>
+
+<!-- <import src="/wxSearch/wxSearch.wxml"/>
+<view class="wxSearch-section">
+      <view class="wxSearch-pancel">
+          <input bindinput="wxSearchInput" bindfocus="wxSerchFocus" value="{{wxSearchData.value}}" bindblur="wxSearchBlur" class="wxSearch-input" placeholder="搜索" />
+          <button class="wxSearch-button" bindtap="wxSearchFn" size="mini" plain="true">搜索</button>
+      </view>
+</view>
+<template is="wxSearch" data="{{wxSearchData}}"/> -->
+
+<view class="container">
+  <view>
+    <text class='city'>北京</text>
+  </view>
+  <view>
+    <text>晴</text>
+  </view>
+  <image class='weatherimg' src="../../images/uv.png">
+  </image>
+  <view>
+    <text class='city'>-3℃</text>
+  </view>
+  <view>
+    <button>PM2.5 优</button>
+  </view>
+  <view>
+    <text>12月11日 星期二</text>
+  </view>
+
+
+</view>
+
+<!-- <view class="section">
+  <view class="section__title">flex-direction: row</view>
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item bc_green">1</view>
+    <view class="flex-item bc_red">2</view>
+    <view class="flex-item bc_blue">3</view>
+  </view>
+</view> -->
